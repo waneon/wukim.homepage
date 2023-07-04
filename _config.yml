@@ -16,6 +16,7 @@ website: https://waneon.me
 additional_links:
 - title: CV Download
   icon: far fa-file-pdf
+  url: https://waneon.me/resources/cv.pdf
 # Dark Mode (true/false/never)
 darkmode: false
 
