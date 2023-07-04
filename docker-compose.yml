@@ -9,3 +9,6 @@ services:
       - 8002:4000
     volumes:
       - ./:/srv/jekyll
+    environment:
+      - PUID=1026
+      - PGID=100
