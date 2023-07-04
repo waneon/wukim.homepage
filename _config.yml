@@ -16,8 +16,6 @@ website: https://waneon.me
 additional_links:
 - title: CV Download
   icon: far fa-file-pdf
-  url: https://waneon.me/resources/cv.pdf
-
 # Dark Mode (true/false/never)
 darkmode: false
 
@@ -26,36 +24,33 @@ github_username:  waneon
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: resources/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hello, I'm Graduate student in School of Computing in KAIST. I'm advised by [Prof. Jongse Park.](https://jongse-park.github.io/)  
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Address: 291 Daehak-ro, Yuseong-gu, E3-1 #4414, Daejeon, 34141, South Korea
 
 content:
   - title: Education
     layout: list
     content:
       - layout: left
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: KAIST
+        sub_title: M.S. in School of Computing
+        caption: 2023.09 ~
         quote: >
-          Short institution or course description (optional)
+          Korea Advanced Institute of Science and Technolog
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          * Advisor: Prof. Jongse Park
       - layout: left
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+        title: Korea University
+        sub_title: B.S. in Computer Science and Engineering
+        caption: 2020.03 ~ 2023.09
+        # quote: >
+        #   291 Daehak-ro, Yuseong-gu, E3-1 #4414, Daejeon, 34141, South Korea
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          * Cumulative GPA: 4.28
+          * Major GPA: 4.38
 
 # Footer
 footer_show_references: true

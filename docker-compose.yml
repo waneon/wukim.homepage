@@ -10,5 +10,4 @@ services:
     volumes:
       - ./:/srv/jekyll
     environment:
-      - JEKYLL_UID=1026
-      - JEKYLL_GID=100
+      - JEKYLL_UID=${UID}
