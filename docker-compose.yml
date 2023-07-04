@@ -10,5 +10,5 @@ services:
     volumes:
       - ./:/srv/jekyll
     environment:
-      - PUID=1026
-      - PGID=100
+      - JEKYLL_UID=1026
+      - JEKYLL_GID=100
